@@ -74,9 +74,9 @@ d3.csv("assets/data/data.csv").then(function(data) {
                     .attr("x", d => xLinearScale(d.poverty))
                     .attr("y", d => yLinearScale(d.smokes))
                     .attr("font-family",  "Courier")
-                    .attr("fill", "black")
+                    .attr("fill", "white")
                     .style("opacity", "0.8")
-                    .attr("font-size", "0.8em")
+                    .attr("font-size", "0.7em")
                     .attr("text-anchor",  "middle")
                     .text(function(d) {
                         return d.abbr
